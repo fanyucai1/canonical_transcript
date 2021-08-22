@@ -1,7 +1,7 @@
 
 # Canonical_transcript
 
-**Matched Annotation from NCBI and EMBL-EBI MANE**(https://www.ncbi.nlm.nih.gov/refseq/MANE/)
+[*Matched Annotation from NCBI and EMBL-EBI MANE*](https://www.ncbi.nlm.nih.gov/refseq/MANE/)
 
 1. [MANE.GRCh38.v0.95.select_ensembl_genomic.gff.gz](https://ftp.ncbi.nlm.nih.gov/refseq/MANE/MANE_human/current/MANE.GRCh38.v0.95.select_ensembl_genomic.gff.gz)
 
