@@ -1,4 +1,4 @@
-Gene Name	Transcript ID
+Gene_Name	Transcript_ID
 ABL1	NM_005157
 ACVR1	NM_001111067
 AGO2	NM_012154
