@@ -1,5 +1,5 @@
 
-# *Canonical_transcript*
+# *Canonical_transcript* 
 
 1. [Matched Annotation from NCBI and EMBL-EBI MANE](https://www.ncbi.nlm.nih.gov/refseq/MANE/)
 
