@@ -7,4 +7,4 @@
 
 3. [De novo request for evaluation of automatic class III designation for the MSK-IMPACT.pdf](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN170058.pdf) 获得附件中gene对应的经典转录本
 
-4. python3 trans.py  >canonical_transcript.txt 
+4. python3 trans.py  >canonical_transcript.txt  
