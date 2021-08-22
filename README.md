@@ -22,4 +22,4 @@ step2:
 
 step3:
 
-python3 trans.py 
+python3 trans.py -l genelist >temp.txt
