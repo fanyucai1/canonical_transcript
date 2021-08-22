@@ -1,14 +1,11 @@
-import argparse
 
-parser=argparse.ArgumentParser()
-parser.add_argument("-l","--list",help="gene list")
-args=parser.parse_args()
 
 map,line={},""
 infile=open("MSK.txt","r")
 for line in infile:
     line=line.strip()
     map[line.split()[0]]=line.split()[1]
+    print(line.split()[0],"\t",line.split()[1])
 infile.close()
 
 infile=open("/Users/fanyucai/Desktop/MANE.GRCh38.v0.95.select_ensembl_genomic.gff","r")#https://ftp.ncbi.nlm.nih.gov/refseq/MANE/MANE_human/current/
@@ -24,10 +21,5 @@ for line in infile:
                 transript=array[i].split(':')[1].split('.')[0]
             if not gene_name in map:
                 map[gene_name]=transript
-infile.close()
-
-infile=open(args.list,"r")
-for line in infile:
-    line=line.strip()
-    print(map[line])
+                print(gene_name,"\t",transript)
 infile.close()
